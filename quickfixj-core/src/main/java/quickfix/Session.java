@@ -2826,6 +2826,10 @@ public class Session implements Closeable {
         state.setHeartBeatInterval(heartbeatInterval);
     }
 
+    public int getHeartBeatInterval() {
+        return state.getHeartBeatInterval();
+    }
+    
     public boolean getCheckCompID() {
         return checkCompID;
     }
